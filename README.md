@@ -2,6 +2,19 @@
 Cliente que permite buscar en la iTunes Store. Es un framework desarrollado en Swift diseñado usanfo un enfoque Protocol Oriented Programming.
 
 ## Diseño
+La programación orienta a Protocolos difiere de la orientada a Objetos en que en lugar de comenzar definiendo estructura de clases usamos protocolos, pero además, se fundamenta en tres pilares:
+
+* *Herencia* de protocolos
+* *Composición* de protocolos
+* *Extensiones* de protocolos
+
+![Framework Design](https://github.com/fitomad/ituneskit/blob/master/Images/pop_design.jpeg)
+
+**Book**: Está formado por los protocolos `Track`, `Artwork` y `Sizing`
+
+**Movie**: Formado por `Track`, `DVD`, `Artwork`, `Previewing` y `Timing`
+
+**Song**: Está compuesta por `Track`, `Artwork`, `Previewing`, `Disc` y `Timing`
 
 ## Ejemplos
 
