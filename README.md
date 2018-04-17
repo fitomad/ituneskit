@@ -1,5 +1,5 @@
 # iTunesKit
-Cliente que permite buscar en la iTunes Store. Es un framework desarrollado en Swift diseñado usanfo un enfoque Protocol Oriented Programming.
+Cliente que permite buscar en la iTunes Store. Es un framework desarrollado en Swift diseñado usando un enfoque Protocol Oriented Programming.
 
 ## Diseño
 La programación orienta a Protocolos difiere de la orientada a Objetos en que en lugar de comenzar definiendo estructura de clases usamos protocolos, pero además, se fundamenta en tres pilares:
